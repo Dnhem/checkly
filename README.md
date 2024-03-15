@@ -78,15 +78,19 @@ If you have existing Playwright checks added on the Checkly platform, let’s go
 2. Click on “Export to code”. Here you have the option to copy & paste both “check.ts” and “spec.ts” files. You can also download both files and drag and drop them into your “playwright” directory
 
 3. Once the files are inside the “playwright” directory, you can proceed to delete the checks on the Checkly platform to avoid having duplicate checks upon deployment
-4. Open up a terminal and navigate to your root project folder and run your test:
+4. Now, login to your Checkly account 
+   ```shell
+   npx checkly login
+   ```
+5. Open up a terminal and navigate to your root project folder and run your test:
    ```shell
    npx checkly test –-record
    ```
-5. After validating your checks, deploy them to the Checkly platform:
+6. After validating your checks, deploy them to the Checkly platform:
    ```shell
    npx checkly deploy
    ```
-6. Head over to the Checkly platform and refresh the browser. Congrats, your checks are now synced! 🏁
+7. Head over to the Checkly platform and refresh the browser. Congrats, your checks are now synced! 🏁
 
 ## ♾️ Deploying via CI/CD Pipeline
 
