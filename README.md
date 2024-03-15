@@ -82,7 +82,7 @@ If you have existing Playwright checks added on the Checkly platform, let’s go
    ```shell
    npx checkly login
    ```
-5. Ruun your tests
+5. Run your tests
    ```shell
    npx checkly test –-record
    ```
