@@ -78,11 +78,11 @@ If you have existing Playwright checks added on the Checkly platform, let’s go
 2. Click on “Export to code”. Here you have the option to copy & paste both “check.ts” and “spec.ts” files. You can also download both files and drag and drop them into your “playwright” directory
 
 3. Once the files are inside the “playwright” directory, you can proceed to delete the checks on the Checkly platform to avoid having duplicate checks upon deployment
-4. Now, login to your Checkly account 
+4. Let's get started using the CLI! Open up a terminal and login to your Checkly account 
    ```shell
    npx checkly login
    ```
-5. Open up a terminal and navigate to your root project folder and run your test:
+5. Navigate to your root project folder and run your test:
    ```shell
    npx checkly test –-record
    ```
