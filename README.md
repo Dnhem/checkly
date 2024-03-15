@@ -60,11 +60,11 @@ A "workflow.yml" file provided if you're implementing Github Actions as your CI/
 
 1. The “alert-channels.ts” file configures all of your alert settings. Enter your email address in the “address” property of the “emailChannel” construct.
 
-   <img src="img/emailChannel.png" alt="descriptive text" width="450">
+   <img src="img/emailChannel.png" alt="descriptive text" width="550">
 
 2. The “checkly.config.ts” file is where your core Checkly configuration lives. Import another alert of your choice at the top of this file and add it to the “alertChannels” array to set additional alerts.
 
-   <img src="img/alertChannels.png" alt="descriptive text" width="350">
+   <img src="img/alertChannels.png" alt="descriptive text" width="450">
 
 Voilà, you will now receive alerts to your specified email! If you’d like to set other alerts, simply replace the placeholder values within the “alert-channels.ts” file and repeat step 2.
 
