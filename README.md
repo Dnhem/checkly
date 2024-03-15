@@ -98,8 +98,9 @@ You can seamlessly integrate Checkly into your CI/CD pipeline. Regardless of the
 
 To access your `CHECKLY_API_KEY` and `CHECKLY_ACCOUNT_ID`, head over to the Checkly platform and click on your avatar on the upper right corner
 
-1. To access your `CHECKLY_API_KEY` - click on "API keys" under USER SETTINGS
-2. To access your `CHECKLY_ACCOUNT_ID` - click on "General" under ACCOUNT SETTINGS. Your "Account ID" is directly under your ACCOUNT NAME.
+1. Click "Account settings"
+2. To access your `CHECKLY_API_KEY` - click on "API keys" under USER SETTINGS
+3. To access your `CHECKLY_ACCOUNT_ID` - click on "General" under ACCOUNT SETTINGS. Your "Account ID" is directly under your ACCOUNT NAME.
 
 <img src="img/accountSettings.png" alt="descriptive text" width="150">
 
